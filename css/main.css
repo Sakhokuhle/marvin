@@ -1,11 +1,38 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+  margin: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
 }
 
 div {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
+}
+
+div#main {
+  background-color: yellowgreen;
+  width: 804px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  gap: 30px;
+  margin-top: 180px;
+}
+
+div#left {
+  display: block;
+  justify-content: end;
+  border-right: 1px;
+}
+div#middle {
+  margin: 0;
+}
+div#right {
+  display: block;
+  font-size: small;
+  text-align: left;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
